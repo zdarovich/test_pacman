@@ -53,7 +53,7 @@ public class Player extends AnimatedSprite {
         x += changePositionX;
 
         double vertical = inputController.getVerticalFactor();
-        
+
         changePositionY = speedFactor * vertical * elapsedMillis;
         y += changePositionY;
 
